@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-full py-3 px-6 text-xs font-bold cursor-pointer hover:tracking-wider;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  @apply my-3 rounded-xl bg-gray-100 border-pink-500 shadow-md overflow-hidden static hover:shadow-xl;
+}
+
+.hover-card {
+  @apply my-3 rounded-xl bg-red-500 border-pink-500 shadow-md overflow-hidden static;
 }
