@@ -1,6 +1,6 @@
 const Card = ({ onClose, user }) => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-screen bg-opacity-50 bg-gray-700 flex justify-center items-center">
+    <div className="fixed top-0 left-0 h-screen w-screen bg-opacity-50 bg-gray-700 flex justify-center items-center z-50">
       <div className="relative">
         <button
           className="close-modal text-lg absolute right-3  rounded-sm text-white font-bold hover:text-black  "
@@ -26,7 +26,7 @@ const Card = ({ onClose, user }) => {
             </div>
 
             <div>
-              <span className="font-bold">Total photo: </span>
+              <span className="font-bold mb-3">Total photo: </span>
               <span>{user.total_photos}</span>
             </div>
             <div>
