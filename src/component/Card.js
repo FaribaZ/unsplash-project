@@ -10,7 +10,7 @@ const Card = ({ onClose, user }) => {
         </button>
         <div className="flex flex-col rounded-lg bg-blue-400  md:flex-row">
           <img
-            className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+            className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-32 md:rounded-none md:rounded-l-lg"
             src={user.profile_image.medium}
             alt={user.name}
           />

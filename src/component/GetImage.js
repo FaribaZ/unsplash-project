@@ -5,9 +5,7 @@ const GetImg = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [images, setImages] = useState([]);
-  //   const [backgroundUrl, setBackgroundImage] = useState(
-  //     "https://images.unsplash.com/photo-1604079628040-94301bb21b91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-  //   );
+
   return (
     <div
       className="min-h-screen bg-cover"
